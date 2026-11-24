@@ -24,6 +24,36 @@ button {
     font-family: inherit;
     cursor: pointer;
 }
+.whatsapp-card{
+    text-align:center;
+}
+.whatsapp-icon{
+    fontsize:40px;
+    color:#25d366:
+    margin-bottom:15px:
+}
+.whatsapp-contact-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    background:#25d366;
+    color:white;
+    padding:12px 22px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    margin-top:15px;
+    transition:o.3s ease;
+}
+.whatsapp-contact-btn:hover{
+    background:#128c7E;
+    transform:translateY(-3px);
+}
+.whatsapp-contact-btn i{
+    fontsize:20px;
+}
+    
 
 img {
     width: 100%;
